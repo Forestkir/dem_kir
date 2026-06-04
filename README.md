@@ -35,3 +35,10 @@ git status
 для того, чтобы собрать файл exe, мы прописываем данную команду (не забудь перейти в папку add)
 
 pyinstaller --noconfirm --windowed --onefile --name СтроительныеМатериалы --icon "..\resources\Icon.ico" --add-data "..\resources;resources" --collect-all mysql.connector main.py
+
+чтобы залить коммит (локально), надо:
+(.venv) PS C:\Exam2026\app> cd ..
+(.venv) PS C:\Exam2026> git init 
+Initialized empty Git repository in C:/Exam2026/.git/
+(.venv) PS C:\Exam2026> git add .
+(.venv) PS C:\Exam2026> git commit -m "onecommit"
